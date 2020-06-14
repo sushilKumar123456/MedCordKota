@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         android:id="@+id/coordinatorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="5dp" />
+
+    <LinearLayout
+
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="173dp"
+            android:orientation="horizontal">
+
+        <Button
+                android:id="@+id/button1"
+                android:layout_width="0dp"
+                android:layout_height="182dp"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+
+                android:text="Button1" />
+
+        <Button
+                android:id="@+id/button2"
+                android:layout_width="0dp"
+                android:layout_height="182dp"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+
+                android:text="Button2" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <Button
+                android:id="@+id/button3"
+                android:layout_width="0dp"
+                android:layout_height="182dp"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:text="Button3"/>
+
+        <Button
+                android:id="@+id/button4"
+                android:layout_width="0dp"
+                android:layout_height="182dp"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+
+                android:text="Button4" />
+
+
+    </LinearLayout>
+    <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:visibility="gone"/>
+
+
+</LinearLayout>
