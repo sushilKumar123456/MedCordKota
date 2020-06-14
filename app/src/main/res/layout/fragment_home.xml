@@ -3,6 +3,7 @@
          android:id="@+id/coordinatorLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/white"
         android:orientation="vertical">
 
 
@@ -23,8 +24,10 @@
                 android:id="@+id/button1"
                 android:layout_width="0dp"
                 android:layout_height="182dp"
-                android:layout_weight="1"
+                android:layout_weight=".9"
                 android:textAllCaps="false"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/white"
 
                 android:text="Button1" />
 
@@ -32,9 +35,10 @@
                 android:id="@+id/button2"
                 android:layout_width="0dp"
                 android:layout_height="182dp"
-                android:layout_weight="1"
+                android:layout_weight=".9"
                 android:textAllCaps="false"
-
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/white"
                 android:text="Button2" />
 
     </LinearLayout>
@@ -48,11 +52,14 @@
             android:orientation="horizontal">
 
         <Button
+                android:padding="5dp"
                 android:id="@+id/button3"
                 android:layout_width="0dp"
                 android:layout_height="182dp"
                 android:layout_weight="1"
                 android:textAllCaps="false"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/white"
                 android:text="Button3"/>
 
         <Button
@@ -61,7 +68,8 @@
                 android:layout_height="182dp"
                 android:layout_weight="1"
                 android:textAllCaps="false"
-
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/white"
                 android:text="Button4" />
 
 
